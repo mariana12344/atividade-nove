@@ -2,4 +2,27 @@
     margin: 0;
     padding: 0 ;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root {
+    --main-background: #93c5fd;
+    --text-color: #1e3a8a; 
+    --nav-background: #dbeafe;
+}
+
+body {
+     background-color: #93c5fd;
+     color:#1e3a8a;
+
+     display: flex;
+     flex-direction: column;
+     height: 100svh;
+     justify-content: center;
+     align-items: center;
+
+}
+
+nav {
+    background-color: #dbeafe;
 }
